@@ -18,6 +18,42 @@ Secondly, With BTC having an SF value of 25, and Silver having an SF of 22, BTC 
 Lastly, the model is based on the assumption the SF is strictly responsible for the value of gold, however research has shown that value of Gold is sometimes unrelated to the SF value. The model also fails to take into account the impact of occurences of devaluation of the US dollar and it's contribution to the value of gold.
 
 
+b. 
+Stock price (P<sub>o</sub>) = $40, Strike price (X) = $45, Time (t) 4 months, (0.3 year), Volatility (σ)= 0.4, Risk free (Krf) = 0.03. N (normal distribution for d<sub>1</sub> and d<sub>2</sub>, V<sub>c</sub> (call price)
+
+V<sub>c</sub> = P<sub>o</sub> Nd<sub>1</sub> - ( X / e<sup>Krf * t</sup> )Nd<sub>2</sub>
+
+d<sub>1</sub> = [ln(P<sub>o</sub>/X)] + (Krf + 0.5(σ)<sup>2</sup>)(t) / σ√t 
+
+d<sub>2</sub> = d<sub>1</sub> - σ√t 
+
+d<sub>1</sub> = ln(40/45) + [0.03 + 0.5(0.4)<sup>2</sup>] (0.3) / (0.4)(0.577)
+
+d<sub>1</sub> = -0.118 + [0.03 + 0.08] (0.3) / (0.4)(0.577)
+
+d<sub>1</sub> = -0.118 + [0.11] (0.3) / (0.2308)
+
+d<sub>1</sub> = -0.118 + 0.03663 / (0.2308) = -0.08137 / 0.2308 
+
+d<sub>1</sub> = -0.35
+
+d<sub>2</sub> = -0.353 - 0.2308 
+
+d<sub>2</sub> = -0.58
+
+Nd<sub>1</sub> = 0.36317, Nd<sub>2</sub> = 0.28096
+
+V<sub>c</sub> = (40)(0.36317) - [(45)/e<sup>(0.03 * 0.33)</sup>] (0.28096) 
+
+V<sub>c</sub> = 14.527 - (45/1.01)(0.281)
+
+V<sub>c</sub> = 14.527 - (44.56)(0.281)
+
+V<sub>c</sub> = 14.527 - 12.5214 
+
+V<sub>c</sub> = $2. 
+
+
 
 
 
