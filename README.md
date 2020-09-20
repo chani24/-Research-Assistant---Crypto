@@ -18,6 +18,7 @@ Secondly, With BTC having an SF value of 25, and Silver having an SF of 22, BTC 
 Lastly, the model is based on the assumption the SF is strictly responsible for the value of gold, however research has shown that value of Gold is sometimes unrelated to the SF value. The model also fails to take into account the impact of occurences of devaluation of the US dollar and it's contribution to the value of gold.
 
 
+
 b. 
 Stock price (P<sub>o</sub>) = $40, Strike price (X) = $45, Time (t) 4 months, (0.3 year), Volatility (σ)= 0.4, Risk free (Krf) = 0.03. N (normal distribution for d<sub>1</sub> and d<sub>2</sub>, V<sub>c</sub> (call price)
 
@@ -41,7 +42,7 @@ d<sub>2</sub> = -0.353 - 0.2308
 
 d<sub>2</sub> = -0.58
 
-Nd<sub>1</sub> = 0.36317, Nd<sub>2</sub> = 0.28096
+N<sub>d1</sub> = 0.36317, N<sub>d2</sub> = 0.28096
 
 V<sub>c</sub> = (40)(0.36317) - [(45)/e<sup>(0.03 * 0.33)</sup>] (0.28096) 
 
@@ -52,6 +53,14 @@ V<sub>c</sub> = 14.527 - (44.56)(0.281)
 V<sub>c</sub> = 14.527 - 12.5214 
 
 V<sub>c</sub> = $2. 
+
+
+
+2. COMPUTER SCIENCE
+
+a. A recursion operates by keeping a copy of it's previous calls in memory to enable it access them in future calls. This is called a recursive tree. For smaller values of n in the recursion it runs optimally. However as n becomes larger, the recursion tree becomes larger thereby causing high usage of system memory which in turn slows down the process. 
+
+b. 
 
 
 
