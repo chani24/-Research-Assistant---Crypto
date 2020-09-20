@@ -60,7 +60,45 @@ V<sub>c</sub> = $2.
 
 a. A recursion operates by keeping a copy of it's previous calls in memory to enable it access them in future calls. This is called a recursive tree. For smaller values of n in the recursion it runs optimally. However as n becomes larger, the recursion tree becomes larger thereby causing high usage of system memory which in turn slows down the process. 
 
-b. 
+b. (Javascript)
+
+<code>
+  const isProthNumber = function(num) {
+
+
+    const isPowerOfTwo = function(num) {
+            return Math.log2(num) % 1 === 0;
+        }
+
+
+        // subtract 1 from num
+        --num
+
+    //initialise k
+    let k = 1
+
+
+
+    while (k < (num / k)) {
+
+
+        if (num % k === 0) {
+
+            if (isPowerOfTwo(num / k))
+                //if k × 2<sup>n</sup> + 1
+                return true;
+        }
+
+        k = k + 2;
+
+    }
+
+    return false;
+
+    }
+
+    console.log(isProthNumber(3))
+</code>
 
 
 
