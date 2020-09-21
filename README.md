@@ -101,6 +101,39 @@ b. (Javascript)
 </code>
 
 
+3. MATHS 
 
+ y = sqrt((x+6)<sup>2</sup> + 25) + sqrt((x-6)<sup>2</sup> + 121)
+ 
+ y = sqrt((x+6)(x+6) + 25) + sqrt((x-6)(x-6) + 121)
+ 
+ y = sqrt(x<sup>2</sup> + 6x + 6x + 36 + 25) + sqrt(x<sup>2</sup> - 6x - 6x + 36 + 121)
+ 
+ y = sqrt(x<sup>2</sup> + 12x + 61) + sqrt(x<sup>2</sup> - 12x + 157)
+ 
+ y = (x<sup>2</sup> + 12x + 61)<sup>1/2</sup> + (x<sup>2</sup> - 12x + 157)<sup>1/2</sup>
+ 
+ Differentiate using composite rule
+ 
+ y = 1/2(x<sup>2</sup> + 12x + 61)<sup>-1/2</sup> (2x + 12) + (x<sup>2</sup> - 12x + 157)<sup>-1/2</sup> (2x - 12)
+ 
+ y = (2x + 12) / 2 (sqrt(x<sup>2</sup> + 12x + 61)) + (2x - 12) / 2 (sqrt(x<sup>2</sup> - 12x + 157)) 
+ 
+ 0 = (x + 6) / (sqrt(x<sup>2</sup> + 12x + 61)) + (x - 6) / (sqrt(x<sup>2</sup> - 12x + 157))
+ 
+ (x + 6) / (sqrt(x<sup>2</sup> + 12x + 61)) = (6-x) / (sqrt(x<sup>2</sup> - 12x + 157))
+ 
+ Square both sides
+ 
+ (x + 6)<sup>2</sup> / (x<sup>2</sup> + 12x + 61) = (6-x)<sup>2</sup> / (x<sup>2</sup> - 12x + 157)
+ 
+ Cross multiply
+ 
+ (x + 6)<sup>2</sup> (x<sup>2</sup> - 12x + 157) = (6-x)<sup>2</sup> (x<sup>2</sup> + 12x + 61)
+ 
+ (x+6)(x+6) (x<sup>2</sup> - 12x + 157) = (x-6)(x-6) (x<sup>2</sup> + 12x + 61)
+ 
+ (x<sup>2</sup> + 6x + 6x + 36) (x<sup>2</sup> - 12x + 157) = (x<sup>2</sup> - 6x - 6x + 36) (x<sup>2</sup> + 12x + 61)
 
+(x<sup>2</sup> + 12x + 36) (x<sup>2</sup> - 12x + 157) = (x<sup>2</sup> - 12x + 36) (x<sup>2</sup> + 12x + 61)
 
