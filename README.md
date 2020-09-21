@@ -135,5 +135,51 @@ b. (Javascript)
  
  (x<sup>2</sup> + 6x + 6x + 36) (x<sup>2</sup> - 12x + 157) = (x<sup>2</sup> - 6x - 6x + 36) (x<sup>2</sup> + 12x + 61)
 
-(x<sup>2</sup> + 12x + 36) (x<sup>2</sup> - 12x + 157) = (x<sup>2</sup> - 12x + 36) (x<sup>2</sup> + 12x + 61)
+ (x<sup>2</sup> + 12x + 36) (x<sup>2</sup> - 12x + 157) = (x<sup>2</sup> - 12x + 36) (x<sup>2</sup> + 12x + 61)
+
+ x<sup>4</sup> - 12<sup>3</sup> + 157x<sup>2</sup> + 12x<sup>3</sup> - 144x<sup>2</sup> + 1884x + 36x<sup>2</sup> - 432x + 5652 = x<sup>4</sup> + 12x<sup>3</sup> + 61x<sup>2</sup> - 12x<sup>3</sup> - 144x<sup>2</sup> - 732x + 36<sup>2</sup> + 432x + 2196
+
+ x<sup>4</sup> + 49<sup>2</sup> + 1452x + 5652 = x<sup>4</sup> - 47<sup>2</sup> -300x + 2196
+
+ x<sup>4</sup> - <sup>4</sup> + 49<sup>2</sup> + 47x<sup>2</sup> + 1452x + 300x + 5652 - 2196 = 0 
+
+ 96<sup>2</sup> + 1752x + 3456 = 0 
+
+ solved this equation as a quadratic on a scientific calculator
+
+ x = -2.25 and x = -16
+ 
+ solving for first value of y
+
+ y = sqrt((x+6)<sup>2</sup> + 25) + sqrt((x-6)<sup>2</sup> + 121)
+ 
+ y = sqrt((-2.25+6)<sup>2</sup> + 25) + sqrt((-2.25-6)<sup>2</sup> + 121)
+ 
+ y = sqrt((3.75)<sup>2</sup> + 25) + sqrt((-8.25)<sup>2</sup> + 121)
+ 
+ y = sqrt(14.0625 + 25) + sqrt(68.0625 + 121)
+ 
+ y = sqrt(39.0625) + sqrt(189.0625)
+ 
+ y = 6.25 + 13.75 
+ 
+ y = 20
+ 
+ solving for second value of y
+ 
+ y = sqrt((-16+6)<sup>2</sup> + 25) + sqrt((-16-6)<sup>2</sup> + 121)
+ 
+ y = sqrt((10)<sup>2</sup> + 25) + sqrt((-22)<sup>2</sup> + 121)
+ 
+ y = sqrt(100 + 25) + sqrt(484 + 121)
+ 
+ y = sqrt(125) + sqrt(605)
+ 
+ y = 11.18 + 24.6
+ 
+ y = 35.78
+ 
+ Both values of y are real numbers
+ 
+ The minimum value of y is 20, when x = -2.25 
 
